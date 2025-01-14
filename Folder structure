@@ -1,0 +1,13 @@
+FilenameSanitizer/
+│
+├── src/
+│   ├── __init__.py
+│   └── sanitizer.py   # Contains the main code logic
+│
+├── tests/
+│   └── test_sanitizer.py  # Unit tests for the sanitizer logic
+│
+├── .gitignore           # Files and directories to ignore in the repo
+├── LICENSE              # License for the project
+├── README.md            # Documentation for the repository
+└── requirements.txt     # Dependencies (if any)
