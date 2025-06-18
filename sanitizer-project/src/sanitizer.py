@@ -10,9 +10,9 @@ class Sanitizer:
 
     def validate_input(self, user_input):
         """
-        Validates the user input to ensure it meets certain criteria.
+        Validates the User Inputs to ensure it meets certain criteria.
         """
-        # Example implementation: check if input is not empty and is alphanumeric
+        # Example implementation: check if INPUT is not empty and is alphanumeric.
         if not user_input or not user_input.isalnum():
             return False
         return True
